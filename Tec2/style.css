@@ -1,0 +1,131 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/*GERAL*/
+.branco{
+    color: white;
+}
+
+body{
+    font-size: 1em;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background: #e6e6e6;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+a:link, a:visited   {
+    color: #f7b600;
+}
+
+h2{
+    color: #f7b600;
+}
+
+h3{
+    font-size: 0.8em;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #ccc;
+}
+/*FIM GERAL*/
+
+/*TOPO*/
+#topo{
+    background: #f7b600;
+    text-align: center;
+}
+
+#logo{
+    padding: 20px;
+    font-size: 1.2em;
+    color: #4e4e4e;
+}
+
+.menu{
+    padding-bottom: 20px;
+}
+
+.menu a{
+    padding: 10px;
+}
+
+#topo ul li{
+    display: inline;
+}
+
+#topo a:link, #topo a:visited{
+    color: white;
+}
+
+#topo a:hover{
+    background: white;
+    color: #f7b600;
+    text-decoration: none;
+}
+/*FIM TOPO*/
+
+/*AREA CONTEUDO*/
+#area-conteudo{
+    width: 920px;
+    margin: 15px auto;
+    
+}
+
+#area-postagem{
+    width: 660px;
+    float: left;
+}
+
+.postagem{
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#area-lateral{
+    width: 240px;
+    float: right;
+    
+}
+
+#recentes{
+    padding: 10px;
+    background: white;
+    font-size: 0.8em;
+    margin-bottom: 20px;
+}
+
+#recentes h3, #categorias h3{
+    font-size: 1.5em;
+    background: #CCC;
+    color: #4e4e4e;
+    padding: 5px;
+}
+
+#categorias{
+    background: white;
+    font-size: 0.8em;
+    padding: 10px;
+}
+
+#categorias a{
+    display: block;
+}
+
+#rodape{
+    clear: both;
+    background: #ccc;
+    text-align: center;
+    padding: 15px;
+
+}
+/*FIM CONTEUDO*/
